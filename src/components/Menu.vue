@@ -31,7 +31,21 @@
         </tbody>
       </table>
     </div>
-    {{ basket }}
+    <!-- basket -->
+    <div class="basket">
+      <h3>~Basket~</h3>
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <button class="btn-green">&#8722;</button>
+              <span>2</span>
+              <button class="btn-green">&#43;</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
