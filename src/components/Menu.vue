@@ -36,4 +36,27 @@
 
 
 <style scoped>
+h3 {
+  text-align: center;
+}
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  background: #f1e6da;
+  border-radius: 3px;
+  height: 100vh;
+  margin: 10px;
+  padding: 10px;
+}
+@media screen and (min-width: 900px) {
+  .menu-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu {
+    width: 65vw;
+  }
+}
 </style>
