@@ -42,9 +42,13 @@
               <span>2</span>
               <button class="btn-green">&#43;</button>
             </td>
+            <td>pepperoni 9"</td>
+            <td>price</td>
           </tr>
         </tbody>
       </table>
+      <p>order total:</p>
+      <button class="btn-green">Place Order</button>
     </div>
   </div>
 </template>
@@ -132,7 +136,8 @@ h3 {
   display: flex;
   flex-direction: column;
 }
-.menu {
+.menu,
+.basket {
   background: #f1e6da;
   border-radius: 3px;
   height: 100vh;
@@ -146,6 +151,9 @@ h3 {
   }
   .menu {
     width: 65vw;
+  }
+  .basket {
+    width: 35vw;
   }
 }
 </style>
